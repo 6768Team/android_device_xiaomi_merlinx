@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# ArrowOS additions
+DEVICE_MAINTAINER := surblazer
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
@@ -27,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -37,7 +40,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := merlinx
-PRODUCT_NAME := lineage_merlinx
+PRODUCT_NAME := arrow_merlinx
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 

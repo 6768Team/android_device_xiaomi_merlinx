@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_device_xiaomi_mt6768-common",
+    "target_path": "device/xiaomi/mt6768-common"
+  },
+  {
+    "repository": "android_vendor_xiaomi_merlinx",
+    "target_path": "vendor/xiaomi/merlinx"
+  }
+]
