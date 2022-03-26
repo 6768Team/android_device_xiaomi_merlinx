@@ -42,6 +42,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 PRODUCT_DEVICE := merlinx
 PRODUCT_NAME := arrow_merlinx
 PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 9
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
