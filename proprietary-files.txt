@@ -11,10 +11,7 @@ vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libaudiopreprocessing_mtk.so
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib64/libaudioclient_aidl_conversion.so
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocomponentenginec.so
@@ -26,7 +23,6 @@ vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libaudio_param_parser-vnd.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 
 # Audio-Hardware
@@ -274,7 +270,6 @@ vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 vendor/lib/libbluetoothem_mtk.so
-vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbluetooth_mtk_pure.so
@@ -286,7 +281,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
 vendor/lib64/libbluetoothem_mtk.so
-vendor/lib64/libbluetooth_audio_session.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
@@ -385,8 +379,6 @@ vendor/bin/hw/camerahalserver
 # Camera-configs
 vendor/etc/camera/fonts.xml
 vendor/etc/camera/merlin_goldResult.bin
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/model/bokeh_model/cache_data
 vendor/etc/camera/model/bokeh_model/model_mdl_cache
 vendor/etc/camera/model/bokeh_model/segment_model
@@ -396,7 +388,6 @@ vendor/etc/camera/model/rt_model/mask/segment_model
 vendor/etc/camera/model/rt_model/score/cache_data
 vendor/etc/camera/model/rt_model/score/model_mdl_cache
 vendor/etc/camera/model/rt_model/score/segment_model
-vendor/etc/camera/Roboto-Thin.ttf
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/watermark_font_2300_3199.dat
 
@@ -562,19 +553,9 @@ vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/etc/permissions/android.hardware.hardware_keystore.km41.xml
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster41.so
-vendor/lib64/libkeymaster4support.so
-vendor/lib64/libkeymaster4_1support.so
-vendor/lib64/libkeymaster_messages.so
-vendor/lib64/libkeymaster_portable.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
@@ -829,7 +810,6 @@ vendor/lib/modules/modules.alias:vendor/lib/modules_prebuilt/modules.alias
 vendor/lib/modules/modules.dep:vendor/lib/modules_prebuilt/modules.dep
 vendor/lib/modules/modules.load:vendor/lib/modules_prebuilt/modules.load
 vendor/lib/modules/modules.softdep:vendor/lib/modules_prebuilt/modules.softdep
-vendor/lib/modules/sla.ko:vendor/lib/modules_prebuilt/sla.ko
 vendor/lib/modules/udc_lib.ko:vendor/lib/modules_prebuilt/udc_lib.ko
 vendor/lib/modules/wlan_drv_gen4m.ko:vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko
 vendor/lib/modules/wmt_chrdev_wifi.ko:vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko
@@ -860,12 +840,6 @@ vendor/lib/libvsim.so
 # Sensors
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/libsensor_custom.so
-
-# Soter
-vendor/bin/hw/vendor.microtrust.hardware.soter@1.0-service
-vendor/bin/SoterProvisioningTool
-vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc
-vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
@@ -921,12 +895,8 @@ vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
 vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so
 
 # Misc
 vendor/bin/atcid
@@ -957,7 +927,6 @@ vendor/bin/gsm0710muxd
 vendor/bin/H9HP16AECMMDAR-KMM_P08.bin
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/tetheroffloadservice
-vendor/bin/hw/vendor.qti.sla.service@1.0-service
 vendor/bin/hw/vtservice_hidl
 vendor/bin/initprop_bin
 vendor/bin/ipsec_mon
@@ -1115,9 +1084,7 @@ vendor/etc/init/muxreport.rc
 vendor/etc/init/netdagent.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/init/nvram_daemon.rc
-vendor/etc/init/slad.rc
 vendor/etc/init/tetheroffloadservice.rc
-vendor/etc/init/vendor.qti.sla.service@1.0-service.rc
 vendor/etc/init/volte_clientapi_ua.rc
 vendor/etc/init/volte_rcs_ua.rc
 vendor/etc/init/vpud.rc
@@ -1291,7 +1258,6 @@ vendor/etc/security/cacerts_supl/lab/b5805141.0
 vendor/etc/security/cacerts_supl/lab/b805b58a.0
 vendor/etc/security/cacerts_supl/lab/ed7b215e.0
 vendor/etc/security/cacerts_supl/lab/ef4b31e6.0
-vendor/etc/sla/slad.conf
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
 vendor/etc/sn100u_bootup.pnscr
@@ -1349,20 +1315,14 @@ vendor/lib/libccci_util.so
 vendor/lib/libcheckpid.so
 vendor/lib/libcmdl.so
 vendor/lib/libcmdl_ndk.mtk.vndk.so
-vendor/lib/libcodec2_hidl@1.0.so
-vendor/lib/libcodec2_hidl@1.1.so
-vendor/lib/libcodec2_hidl@1.2.so
-vendor/lib/libcodec2_hidl_plugin.so
 vendor/lib/libcodec2_mtk_c2store.so
 vendor/lib/libcodec2_mtk_vdec.so
 vendor/lib/libcodec2_mtk_venc.so
-vendor/lib/libcodec2_soft_common.so
 vendor/lib/libcodec2_soft_mtk_alacdec.so
 vendor/lib/libcodec2_soft_mtk_apedec.so
 vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so
 vendor/lib/libcodec2_soft_mtk_mp3dec.so
 vendor/lib/libcodec2_soft_mtk_msadpcmdec.so
-vendor/lib/libcodec2_vndk.so
 vendor/lib/libcodec2_vpp_qt_plugin.so
 vendor/lib/libcodec2_vpp_rs_plugin.so
 vendor/lib/libconnfem.so
@@ -1376,7 +1336,6 @@ vendor/lib/libDefaultFpsActor.so
 vendor/lib/libdynamiclog.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libfile_op.so
-vendor/lib/libflatbuffers-cpp.so
 vendor/lib/libformatter.so
 vendor/lib/libFrameRecord.so
 vendor/lib/libged.so
@@ -1411,7 +1370,6 @@ vendor/lib/libmp3dec_mtk.so
 vendor/lib/libmp4enc_sa.ca7.so
 vendor/lib/libmp4enc_xa.ca7.so
 vendor/lib/libmsbc_mtk.so
-vendor/lib/libmt.so
 vendor/lib/libmtcloader.so
 vendor/lib/libneuroeara.so
 vendor/lib/libneuropilot_hal_utils.so
@@ -1420,7 +1378,6 @@ vendor/lib/libNoFpsActor.so
 vendor/lib/libnusensor.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
-vendor/lib/libopus.so
 vendor/lib/libperfctl_vendor.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpkm.so
@@ -1435,10 +1392,6 @@ vendor/lib/librcs_volte_core.so
 vendor/lib/librgbwlightsensor.so
 vendor/lib/librpc.so
 vendor/lib/librt_extamp_intf.so
-vendor/lib/libruy.so
-vendor/lib/libsfplugin_ccodec_utils.so
-vendor/lib/libshmemcompat.so
-vendor/lib/libshmemutil.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
 vendor/lib/libsn100u_fw.so
@@ -1469,7 +1422,6 @@ vendor/lib/libverno.so
 vendor/lib/libviagpsrpc.so
 vendor/lib/libvolte_core_shr.so
 vendor/lib/libvolte_xdmc_shr.so
-vendor/lib/libvorbisidec.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
@@ -1494,8 +1446,6 @@ vendor/lib/s5k4h7yx_sunny_mipi_raw_tuning.so
 vendor/lib/s5kgm1sp_mipi_raw_tuning.so
 vendor/lib/s5kgm1sp_sunny_mipi_raw_tuning.so
 vendor/lib64/gc02m1_macro_mipi_raw_IdxMgr.so
-vendor/lib/vendor.qti.sla.service@1.0-impl.so
-vendor/lib/vendor.qti.sla.service@1.0.so
 vendor/lib64/gc02m1_macro_mipi_raw_india_IdxMgr.so
 vendor/lib64/gc02m1_macro_mipi_raw_india_tuning.so
 vendor/lib64/gc02m1_macro_mipi_raw_tuning.so
@@ -1603,26 +1553,18 @@ vendor/lib64/libcharon-ss.so
 vendor/lib64/libcheckpid.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
-vendor/lib64/libcodec2_hidl@1.0.so
-vendor/lib64/libcodec2_hidl@1.1.so
-vendor/lib64/libcodec2_hidl@1.2.so
-vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
-vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_soft_mtk_alacdec.so
 vendor/lib64/libcodec2_soft_mtk_apedec.so
 vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so
 vendor/lib64/libcodec2_soft_mtk_mp3dec.so
 vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so
-vendor/lib64/libcodec2_vndk.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libcomposer_ext.so
 vendor/lib64/libconnfem.so
-vendor/lib64/libcppbor_external.so
-vendor/lib64/libcppcose_rkp.so
 vendor/lib64/libcrypto-mdapp.so
 vendor/lib64/libcurl-md.so
 vendor/lib64/libcurl_xcap_md.so
@@ -1630,7 +1572,6 @@ vendor/lib64/libcustom_nvram.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libdecrypt.so
 vendor/lib64/libDefaultFpsActor.so
-vendor/lib64/libdng_sdk.so
 vendor/lib64/libDR.so
 vendor/lib64/libdynamiclog.so
 vendor/lib64/libeffecthal.base.so
@@ -1645,7 +1586,6 @@ vendor/lib64/libfeature_lmv.so
 vendor/lib64/libfeature_rss.so
 vendor/lib64/libfft_vendor.so
 vendor/lib64/libfile_op.so
-vendor/lib64/libflatbuffers-cpp.so
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libformatter.so
 vendor/lib64/libFrameRecord.so
@@ -1678,7 +1618,6 @@ vendor/lib64/libksensor.so
 vendor/lib64/libladder.so
 vendor/lib64/liblogwrap_vendor.so
 vendor/lib64/liblpcnr.so
-vendor/lib64/libmemunreachable.so
 vendor/lib64/libmfllcore.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmipc.so
@@ -1694,8 +1633,6 @@ vendor/lib64/libmnl.so
 vendor/lib64/libmp3dec_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmsnr.so
-vendor/lib64/libmt.so
-vendor/lib64/libmt@1.2.so
 vendor/lib64/libmtcloader.so
 vendor/lib64/libneuroeara.so
 vendor/lib64/libneuropilot_hal_utils.so
@@ -1719,21 +1656,15 @@ vendor/lib64/librgbwlightsensor.so
 vendor/lib64/librilfusion.so
 vendor/lib64/librpc.so
 vendor/lib64/librt_extamp_intf.so
-vendor/lib64/libruy.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libsfplugin_ccodec_utils.so
-vendor/lib64/libshmemcompat.so
-vendor/lib64/libshmemutil.so
 vendor/lib64/libsimaka.so
 vendor/lib64/libsimlock.so
 vendor/lib64/libsimmelock.so
 vendor/lib64/libsn100u_fw.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libssl-mdapp.so
-vendor/lib64/libstagefright_bufferpool@2.0.1.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libstorage_otp.so
 vendor/lib64/libstrongswan.so
@@ -1744,7 +1675,6 @@ vendor/lib64/libteeclientjni.so
 vendor/lib64/libteeclientjni@1.1.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libteei_daemon_vfs.so
-vendor/lib64/libtextclassifier_hash.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libthha.so
 vendor/lib64/libtlcWidevineModularDrm.so
@@ -1774,7 +1704,6 @@ vendor/lib64/libwifi-hal.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
 vendor/lib64/libwpfa.so
-vendor/lib64/libz_stable.so
 vendor/lib64/lib_bsscore.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_misd.so
@@ -1819,8 +1748,6 @@ vendor/lib64/s5kgm1sp_sunny_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_IdxMgr.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_india_tuning.so
 vendor/lib64/s5kgm1sp_sunny_mipi_raw_tuning.so
-vendor/lib64/vendor.qti.sla.service@1.0-impl.so
-vendor/lib64/vendor.qti.sla.service@1.0.so
 vendor/lib64/wechat.beanpod.so
 vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
 vendor/thh/ta/020b0000000000000000000000000000.ta
