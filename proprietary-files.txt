@@ -820,6 +820,23 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
+# Modules
+vendor/lib/modules/bt_drv_connac1x.ko:vendor/lib/modules_prebuilt/bt_drv_connac1x.ko
+vendor/lib/modules/connfem.ko:vendor/lib/modules_prebuilt/connfem.ko
+vendor/lib/modules/fmradio_drv_mt6631.ko:vendor/lib/modules_prebuilt/fmradio_drv_mt6631.ko
+vendor/lib/modules/fpsgo.ko:vendor/lib/modules_prebuilt/fpsgo.ko
+vendor/lib/modules/gps_drv.ko:vendor/lib/modules_prebuilt/gps_drv.ko
+vendor/lib/modules/met.ko:vendor/lib/modules_prebuilt/met.ko
+vendor/lib/modules/modules.alias:vendor/lib/modules_prebuilt/modules.alias
+vendor/lib/modules/modules.dep:vendor/lib/modules_prebuilt/modules.dep
+vendor/lib/modules/modules.load:vendor/lib/modules_prebuilt/modules.load
+vendor/lib/modules/modules.softdep:vendor/lib/modules_prebuilt/modules.softdep
+vendor/lib/modules/sla.ko:vendor/lib/modules_prebuilt/sla.ko
+vendor/lib/modules/udc_lib.ko:vendor/lib/modules_prebuilt/udc_lib.ko
+vendor/lib/modules/wlan_drv_gen4m.ko:vendor/lib/modules_prebuilt/wlan_drv_gen4m.ko
+vendor/lib/modules/wmt_chrdev_wifi.ko:vendor/lib/modules_prebuilt/wmt_chrdev_wifi.ko
+vendor/lib/modules/wmt_drv.ko:vendor/lib/modules_prebuilt/wmt_drv.ko
+
 # NFC
 vendor/etc/libnfc-nxp_RF.conf
 vendor/etc/libese-nxp.conf
