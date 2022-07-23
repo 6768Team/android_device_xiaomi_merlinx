@@ -524,7 +524,6 @@ vendor/lib/egl/libMEOW_data.so
 vendor/lib/egl/libMEOW_gift.so
 vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
-vendor/lib/hw/vulkan.mt6768.so
 vendor/lib/libOpenCL.so
 vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
@@ -532,7 +531,6 @@ vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_gift.so
 vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
-vendor/lib64/hw/vulkan.mt6768.so
 vendor/lib64/libOpenCL.so
 
 # IMS (System)
@@ -641,7 +639,6 @@ vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libmtkspparser.so
 vendor/lib/libmtksysutils.so
-vendor/lib/libmtk_drvb.so
 vendor/lib/mt6768/libmtk_drvb.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
@@ -767,7 +764,6 @@ vendor/lib64/libmtkspparser.so
 vendor/lib64/libmtksysutils.so
 vendor/lib64/libmtktinyxml.so
 vendor/lib64/libmtkutils.so
-vendor/lib64/libmtk_drvb.so
 vendor/lib64/mt6768/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/vendor.mediatek.hardware.aee@1.0.so
@@ -1377,7 +1373,6 @@ vendor/lib/libcustom_nvram.so
 vendor/lib/libcvsd_mtk.so
 vendor/lib/libdecrypt.so
 vendor/lib/libDefaultFpsActor.so
-vendor/lib/libdpframework.so
 vendor/lib/libdynamiclog.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libfile_op.so
@@ -1420,7 +1415,6 @@ vendor/lib/libmt.so
 vendor/lib/libmtcloader.so
 vendor/lib/libneuroeara.so
 vendor/lib/libneuropilot_hal_utils.so
-vendor/lib/libnir_neon_driver.so
 vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libnusensor.so
@@ -1436,7 +1430,6 @@ vendor/lib/libpower_timer.so
 vendor/lib/libpqframework.so
 vendor/lib/libpq_cust.so
 vendor/lib/libpq_cust_base.so
-vendor/lib/libpq_prot.so
 vendor/lib/librcs_interface.so
 vendor/lib/librcs_volte_core.so
 vendor/lib/librgbwlightsensor.so
@@ -1638,7 +1631,6 @@ vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libdecrypt.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libdng_sdk.so
-vendor/lib64/libdpframework.so
 vendor/lib64/libDR.so
 vendor/lib64/libdynamiclog.so
 vendor/lib64/libeffecthal.base.so
@@ -1707,7 +1699,6 @@ vendor/lib64/libmt@1.2.so
 vendor/lib64/libmtcloader.so
 vendor/lib64/libneuroeara.so
 vendor/lib64/libneuropilot_hal_utils.so
-vendor/lib64/libnir_neon_driver.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libnusensor.so
@@ -1723,7 +1714,6 @@ vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/libpq_cust.so
 vendor/lib64/libpq_cust_base.so
-vendor/lib64/libpq_prot.so
 vendor/lib64/libratconfig.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/librilfusion.so
