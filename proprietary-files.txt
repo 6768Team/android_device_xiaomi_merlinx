@@ -498,8 +498,8 @@ vendor/lib/hw/gps.default.so
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
--vendor/etc/vintf/manifest/gnss-default.xml
--vendor/etc/vintf/manifest/gnss@2.1-service.xml
+-vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml
+-vendor/etc/vintf/manifest/gnss@2.1-service.xml:vendor/etc/vintf/manifest/gnss-mtk.xml
 
 # GPS-Hardware
 
