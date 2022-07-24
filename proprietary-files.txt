@@ -907,6 +907,7 @@ vendor/lib64/hw/thermal_hal.so
 # Time
 
 # WiFi
+vendor/bin/hw/wpa_supplicant
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
