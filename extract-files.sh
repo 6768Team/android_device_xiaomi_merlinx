@@ -58,6 +58,9 @@ function blob_fixup() {
     *.rc)
         sed -i "s/vendor\/lib\/modules\//vendor\/lib\/modules_prebuilt\//g" ${2}
         ;;
+    vendor/lib64/libwifi-hal-mtk.so)
+        "$PATCHELF" --set-soname libwifi-hal-mtk.so "$2"
+        ;;
     esac
 }
 
