@@ -1776,6 +1776,7 @@ vendor/lib64/libwa_ancbase.so
 vendor/lib64/libwa_depth.so
 vendor/lib64/libwa_refocus.so
 vendor/lib64/libwa_rtdof.so
+vendor/lib64/libwifi-hal.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
 vendor/lib64/libwpfa.so
