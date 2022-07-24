@@ -652,7 +652,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib/vendor.mediatek.hardware.pq@2.9.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
@@ -830,9 +829,6 @@ vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
 -vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
 vendor/lib64/libneuron_adapter.so
 vendor/lib64/libneuron_platform.so
-
-# Power
--vendor/etc/vintf/manifest/power-default.xml
 
 # Radio
 vendor/lib/libvsim.so
