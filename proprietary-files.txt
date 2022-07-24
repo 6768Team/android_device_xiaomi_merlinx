@@ -36,6 +36,8 @@ vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/hw/audio.r_submix.mt6768.so
+vendor/lib/vendor.mediatek.hardware.audio@6.1.so
+vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib64/hw/audio.primary.mt6768.so
@@ -1323,6 +1325,7 @@ vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/AVCSecureVdecCA.so
 vendor/lib/gc02m1_macro_mipi_raw_tuning.so
 vendor/lib/hw/kmsetkey.beanpod.so
+vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/libaalservice.so
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
@@ -1555,6 +1558,7 @@ vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/hq_asd.so
 vendor/lib64/hw/kmsetkey.beanpod.so
+vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
