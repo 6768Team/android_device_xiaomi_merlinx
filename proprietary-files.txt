@@ -877,11 +877,8 @@ vendor/lib64/hw/thermal_hal.so
 
 # WiFi
 vendor/bin/hw/wpa_supplicant
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
--vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 
 # Xiaomi
 vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
