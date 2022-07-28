@@ -34,6 +34,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img
 
+# Recovery
+RECOVERY_TS_FW_PATH := vendor/xiaomi/merlinx/proprietary/vendor/firmware
+PRODUCT_COPY_FILES += \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_fw.bin:recovery/root/vendor/firmware/novatek_ts_fw.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_mp.bin:recovery/root/vendor/firmware/novatek_ts_mp.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_g6_fw.bin:recovery/root/vendor/firmware/novatek_ts_g6_fw.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_g6_mp.bin:recovery/root/vendor/firmware/novatek_ts_g6_mp.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_g6_mp.bin:recovery/root/vendor/firmware/novatek_ts_g6_mp.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_72d_fw.bin:recovery/root/vendor/firmware/novatek_ts_72d_fw.bin \
+    $(RECOVERY_TS_FW_PATH)/novatek_ts_72d_mp.bin:recovery/root/vendor/firmware/novatek_ts_72d_mp.bin \
+    $(RECOVERY_TS_FW_PATH)/focaltech_ts_fw_xinli.bin:recovery/root/vendor/firmware/focaltech_ts_fw_xinli.bin
+
 # NFC stack (AOSP)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_merlinnfc/android.hardware.nfc.xml \
