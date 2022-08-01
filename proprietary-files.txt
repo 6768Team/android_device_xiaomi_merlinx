@@ -892,16 +892,9 @@ vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
 
 # Xiaomi
-vendor/bin/hw/vendor.xiaomi.hardware.micharge@1.0-service
 vendor/bin/LDC_packdata_xiaomi_C3_src1_3264x2448_v4_20190730.dat
 vendor/bin/LDC_packdata_xiaomi_J15_Ofilm_3264x2448_v2_20200305.dat
 vendor/bin/LDC_packdata_xiaomi_J15_Sunny_3264x2448_v2_20200305.dat
-vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml
-vendor/lib/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
-vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
 # Misc
 vendor/bin/atcid
