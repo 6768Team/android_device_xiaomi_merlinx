@@ -98,6 +98,7 @@ vendor/etc/audio_param/SpeechNetwork_AudioParam.xml
 vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml
 vendor/etc/audio_param/SpeechUI_AudioParam.xml
 vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechVol_AudioParam.xml
 vendor/etc/audio_param/SpeechVolUI_AudioParam.xml
 vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml
 vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml
