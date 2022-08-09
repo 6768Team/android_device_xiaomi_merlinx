@@ -680,7 +680,7 @@ vendor/lib64/libmtkcam.featurepipe.streaming.so
 vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam.logicalmodule.so
 vendor/lib64/libmtkcam_3rdparty.core.so
-vendor/lib64/libmtkcam_3rdparty.customer.so
+vendor/lib64/libmtkcam_3rdparty.customer.so|ca1039a87189bf7a293dcadd0800fe4fdb7379af
 vendor/lib64/libmtkcam_3rdparty.mtk.so
 vendor/lib64/libmtkcam_3rdparty.so
 vendor/lib64/libmtkcam_3rdparty.vidhance.so
