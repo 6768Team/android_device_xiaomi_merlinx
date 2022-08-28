@@ -94,6 +94,10 @@ function blob_fixup() {
     vendor/bin/hw/android.hardware.memtrack-service.mediatek)
         "$PATCHELF" --replace-needed "android.hardware.memtrack-V1-ndk_platform.so" "android.hardware.memtrack-V1-ndk.so" "$2"
         ;;
+    vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so)
+        "${PATCHELF_0_8}" --remove-needed "libhidlbase.so" "${2}"
+        sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
+        ;;
     esac
 }
 
