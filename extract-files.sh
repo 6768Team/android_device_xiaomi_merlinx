@@ -101,6 +101,9 @@ function blob_fixup() {
 	vendor/lib64/libmi_watermark.so)
         "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
         ;;
+    vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service)
+        "$PATCHELF" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "$2"
+        ;;
     esac
 }
 
