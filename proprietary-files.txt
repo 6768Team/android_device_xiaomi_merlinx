@@ -552,7 +552,7 @@ lib64/libimsma_socketwrapper.so
 lib64/libvt_avsync.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|48a39baefd82b5c7cb74383beefc6bd3a6a988df
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
